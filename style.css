@@ -1,0 +1,25 @@
+#header{
+    height: 88px;
+    padding: 22px;
+}
+
+.link{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: x-large;
+}
+
+.link:hover{
+    color: #ffffff;
+    font-size: x-large;
+}
+
+#main{
+    height: 80vh;
+}
+
+.searchbox{
+    border: 1px solid #b3b3b3;
+    border-radius: 20px;
+    color: #b3b3b3;
+}
