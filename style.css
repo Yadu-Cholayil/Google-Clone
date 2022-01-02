@@ -10,7 +10,7 @@
 }
 
 .link:hover{
-    color: #ffffff;
+    color: #808080;
     font-size: x-large;
 }
 
@@ -46,3 +46,13 @@
     color: #b3b3b3;
     border-left-color: #ffffff;
 }
+
+.searchButton{
+    background-color: #f7f7f7;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 1px;
+}
+.searchButton:hover {
+    border: 1px solid #b3b3b3;
+    }
