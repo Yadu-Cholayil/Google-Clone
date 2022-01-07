@@ -20,7 +20,7 @@
         <div class="container-fluid text-center p-5" id="main">
             <div class="mt-5 d-flex flex-column justify-content-center">
                 <a href="https://google.com" id="icon">
-                <img src="images/googlelogo_color_272x92dp.png" width="300px" height="100px";><span class=''>Images</span>
+                <img src="images/googlelogo_color_272x92dp.png" width="300px" height="100px"><span id="imgtext">Images</span>
                 </a>
             </div>
             <form action="https://google.com/search">
@@ -30,9 +30,9 @@
                     </div>
                     <input type="text" name="q" id="searchbox">
                     <div class="input-group-append d-flex flex-right icon-right">
-                        <div class="ipIcon" data-toggle='tooltip' data-placement='bottom' title='search with image'z><i class='material-icons'>camera</i></div>
-                        <div class="ipIcon" data-toggle='tooltip' data-placement='bottom' title='search with voice' ><i class='material-icons'>mic </i></div>
-                        <div class="ipIcon"><button type="button" id='srchbtn'><i class='material-icons'>search</i></button></div>
+                        <div class="ipIcon"><span class='tooltiptext'>Search using images</span><i class='material-icons'>camera</i></div>
+                        <div class="ipIcon"><span class='tooltiptext'>Search using voice</span><i class='material-icons'>mic </i></div>
+                        <div class="ipIcon"><span class='tooltiptext'>Search</span><button type="button" id='srchbtn'><i class='material-icons'>search</i></button></div>
                     </div>
                 </div>
             </form>
@@ -43,10 +43,5 @@
             <hr>
             <p class="text-center">Made by Yadu_Cholayil</p>
         </div>
-        <script>
-            $(document).ready(function(){
-              $('[data-toggle="tooltip"]').tooltip();
-            });
-        </script>
     </body>
 </html>
