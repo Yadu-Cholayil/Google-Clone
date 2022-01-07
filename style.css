@@ -116,3 +116,11 @@ input[type=submit]:hover {
       text-decoration: none;
       color: #b3b3b3;
   }
+
+  .headertext{
+        font-family: Arial, Helvetica, sans-serif;
+        color:#d93025;
+        font-weight: 200;
+        font-size: 20px;
+        margin-left: 18px;
+  }
