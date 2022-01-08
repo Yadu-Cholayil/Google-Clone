@@ -24,39 +24,38 @@
             <div class="d-inline-block float-start w-50" >&nbsp;</div>
             <div class="d-inline-block float-end findtext">To do this in the search box.</div><br>
         </div>
-        <form>
+        <form action="https://google.com/search">
             <div class='d-block m-4'>
                 <div class="d-inline-block float-start intext">all the words:</div>
-                <div class="d-inline"><input type='text' id='inputfield'></div>
+                <div class="d-inline"><input type='text' name='as_q' class='inputfield'></div>
                 <div class="d-inline-block float-end endtext">Type the important words: <span class="spantext">tri-colour rat terrier</span></div><br>
             </div>
             <div class='d-block m-4'>
                 <div class="d-inline-block float-start intext">this exact word or phrase:</div>
-                <div class="d-inline"><input type='text' class='w-50'></div>
+                <div class="d-inline"><input type='text' name='as_epq' class='inputfield'></div>
                 <div class="d-inline-block float-end endtext">Put exact words in quotes: <span class="spantext"> "rat terrier" </span></div>
             </div>
             <div class='d-block m-4'>
                 <div class="d-inline-block float-start intext">any of these words:</div>
-                <div class="d-inline"><input type='text' class='w-50'></div>
+                <div class="d-inline"><input type='text' name='as_oq' class='inputfield'></div>
                 <div class="d-inline-block float-end endtext">Type OR between all the words you want: <span class="spantext"> miniature OR standard</span></div>
             </div>
             <div class='d-block m-4'>
                 <div class="d-inline-block float-start intext">none of these words:</div>
-                <div class="d-inline"><input type='text' class='w-50'></div>
+                <div class="d-inline"><input type='text' name='as_eq' class='inputfield'></div>
                 <div class="d-inline-block float-end endtext">Put a minus sign just before words that you don't want: <span class="spantext"> -rodent, -"Jack Russell"</span></div>
             </div>
             <div class='d-block m-4'>
                 <div class="d-inline-block float-start intext">numbers ranging from:</div>
-                <div class="d-inline"><input type='text' class='numfield'></div>
+                <div class="d-inline"><input type='text' name='as_nlo' class='inputfield numfield'></div>
                 <div class="d-inline-block">to</div>
-                <div class="d-inline"><input type='text' class='numfield'></div>
+                <div class="d-inline"><input type='text' name='as_nhi' class='inputfield numfield'></div>
                 <div class="d-inline-block float-end endtext">Put two full stops between the numbers and add a unit of measurement: <span class="spantext">10..35 kg, £300..£500, 2010..2011</span></div>
             </div>
-        </form>
+        
         <hr class="w-100" style="color:#b3b3b3">
     </div>
-    
-
-    <div class='d-block float-end m-4'><input type='submit' class='btn btn-primary'></div>
+    <div class='d-block m-4 subdiv'><input type='submit' value="Advanced Search" class='subbtn float-end'></div>
+</form>
 </body>
 </html>
